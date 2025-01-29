@@ -1,9 +1,9 @@
-import mysql from "mysql2" 
+import mysql from "mysql2"
 
 const db_connection = mysql.createConnection({
   host: 'localhost',
-  user: 'root',  
-  password: "123456789",  
+  user: 'root',
+  password: "123456789",
   database: "db_books",
 });
 
